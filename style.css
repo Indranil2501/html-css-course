@@ -77,6 +77,10 @@ aside {
   border-bottom: 5px solid #1098ad;
 }
 
+aside h3 {
+  text-align: center;
+}
+
 body{
   /* background-color: #f7f7f7; */
 }
