@@ -85,6 +85,22 @@ body{
   /* background-color: #f7f7f7; */
 }
 
-.first-li {
+li:first-child {
   font-weight: bold;
+}
+
+li:last-child {
+  font-weight: bold;
+}
+
+li:nth-child(2) {
+  font-style: italic;
+}
+
+li:nth-child(even) {
+  /* color: green */
+}
+
+article p:last-child {
+  color: red
 }
