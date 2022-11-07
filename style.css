@@ -84,3 +84,7 @@ aside h3 {
 body{
   /* background-color: #f7f7f7; */
 }
+
+.first-li {
+  font-weight: bold;
+}
