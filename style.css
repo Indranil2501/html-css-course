@@ -111,6 +111,8 @@ a:link {
   color: #1098ad;
   text-decoration: none;
 }
+
+/* Changes color once URL gets clicked */
 a:visited{
   color: #1098ad;
 }
@@ -118,9 +120,10 @@ a:visited{
 a:hover{
   color: orangered;
   font-weight: bold;
-  text-decoration: underline orangered;
+  text-decoration: underline dotted orangered;
 }
 
+/* On click this changes the css */
 a:active {
   background-color: black;
   font-style: italic;
