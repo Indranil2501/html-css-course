@@ -128,3 +128,7 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
+#copyright {
+  color: red;
+}
