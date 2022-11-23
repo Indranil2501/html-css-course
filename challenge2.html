@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge #2</title>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
       body {
-        font-family: 'Courier New', Courier, monospace;
+        font-family: "Courier New", Courier, monospace;
         line-height: 1.4;
       }
-      .product{
-        border: 4px solid blueviolet;
+      .product {
+        border: 4px solid black;
+        width: 800px;
+        margin: 50px auto;
       }
       .product-title {
         text-align: center;
         font-size: 22px;
         text-transform: uppercase;
         background-color: #f7f7f7;
+        padding: 15px;
       }
       .price {
         font-size: 24px;
@@ -27,19 +34,28 @@
         text-transform: uppercase;
         font-weight: bold;
         color: #777;
+        margin-bottom: 20px;
       }
-      .more-info:link, more-info:visited {
+      .more-info:link,
+      more-info:visited {
         color: black;
       }
-      more-info:hover, more-info:active {
+      more-info:hover,
+      more-info:active {
         text-decoration: none;
       }
       .details-title {
         text-transform: uppercase;
         font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 15px;
       }
       .details-list {
         list-style: square;
+        margin-left: 20px;
+      }
+      .details-list li{
+        margin-bottom: 10px;
       }
       .add-cart {
         background-color: black;
@@ -48,6 +64,9 @@
         font-size: 20px;
         text-transform: uppercase;
         cursor: pointer;
+        padding: 15px;
+        width: 100%;
+        border-top: 4px solid black
       }
       .add-cart:hover {
         background-color: #fff;
@@ -56,32 +75,33 @@
     </style>
   </head>
   <body>
-    
-    <a href="index.html">Back to home</a>
-    <article class="product">
-      <h2 class="product-title">Converse Chuck Taylor All Star Low Top</h2>
-      <img
-        src="./img/challenges.jpg"
-        alt="Chuck Taylor All Star Shoe"
-        height="250"
-        width="250"
-      />
-      <p class="price"><strong>$65.00</strong></p>
-      <p class="shipping">Free shipping</p>
-      <p>
-        Ready to dress up or down, these classic canvas Chucks are an everyday
-        wardrobe staple.
-      </p>
-      <a class="more-info" href="https://www.converse.com">More information &rarr;</a>
+      <a href="index.html">Back to home</a>
+      <article class="product">
+        <h2 class="product-title">Converse Chuck Taylor All Star Low Top</h2>
+        <img
+          src="./img/challenges.jpg"
+          alt="Chuck Taylor All Star Shoe"
+          height="250"
+          width="250"
+        />
+        <p class="price"><strong>$65.00</strong></p>
+        <p class="shipping">Free shipping</p>
+        <p>
+          Ready to dress up or down, these classic canvas Chucks are an everyday
+          wardrobe staple.
+        </p>
+        <a class="more-info" href="https://www.converse.com"
+          >More information &rarr;</a
+        >
 
-      <h3 class="details-title">Product details</h3>
-      <ul class="details-list">
-        <li>Lightweight, durable canvas sneaker</li>
-        <li>Lightly padded footbed for added comfort</li>
-        <li>Iconic Chuck Taylor ankle patch</li>
-      </ul>
+        <h3 class="details-title">Product details</h3>
+        <ul class="details-list">
+          <li>Lightweight, durable canvas sneaker</li>
+          <li>Lightly padded footbed for added comfort</li>
+          <li>Iconic Chuck Taylor ankle patch</li>
+        </ul>
 
-      <button class="add-cart">Add to cart</button>
-    </article>
+        <button class="add-cart">Add to cart</button>
+      </article>
   </body>
 </html>
