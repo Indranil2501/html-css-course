@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+/* PAGE SECTIONS */
 body {
   color: #444;
   font-family: "Times New Roman", Times, serif;
@@ -19,7 +20,7 @@ body {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px
+  /* height: 80px */
 }
 
 /* Changed text size for all child elements */
@@ -42,6 +43,8 @@ aside {
   padding: 50px 0px;
   width: 500px;
 }
+
+/* SMALLER ELEMENTS */
 
 h1, h2, h3 {
   color: #1098ad;
@@ -172,6 +175,18 @@ a:active {
   width: 100%;
   height: auto;
 }
+
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+
 
 /* Resolving Conflicts */
 /* #copyright {
