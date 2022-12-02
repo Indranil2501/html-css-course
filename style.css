@@ -186,7 +186,10 @@ nav a:link {
   display: inline-block;
 }
 
-
+/* REMOVE MARGIN RIGHT FROM LAST ELEMENT */
+nav a:link:last-child {
+  margin-right: 0;
+}
 
 /* Resolving Conflicts */
 /* #copyright {
