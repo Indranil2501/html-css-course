@@ -27,6 +27,7 @@ body {
 /* Changed text size for all child elements */
 nav {
   font-size: 18px;
+  text-align: start;
 }
 
 article {
