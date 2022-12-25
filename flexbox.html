@@ -43,10 +43,16 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        gap: 30px;
+        gap: 10px;
       }
 
       .el {
+        /* flex-grow: 1; */
+        /* flex-basis: 100px; */
+        /* flex-shrink: 0; */
+        flex: 1;
+        
+
         /* 
         DEFAULTS
         flex-grow: 0;
@@ -57,6 +63,7 @@
 
       .el--1 {
         align-self: flex-start;
+        flex-grow: 2;
       }
 
       .el--5 {
@@ -65,7 +72,7 @@
       }
 
       .el--6 {
-        order: -1;
+        /* order: -1; */
       }
     </style>
   </head>
