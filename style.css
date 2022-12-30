@@ -238,7 +238,8 @@ nav p{
   font-size: 18px;
 } */
 
-.author-img{
+/* FLOAT */
+/* .author-img{
   float: left;
   margin-bottom: 20px;
 }
@@ -257,9 +258,9 @@ nav {
   float: right;
 }
 
-/* .clear {
+.clear {
   clear: both;
-} */
+}
 
 .clearfix::after {
   clear: both;
@@ -279,4 +280,4 @@ aside {
 
 footer {
   clear: both;
-}
+} */
