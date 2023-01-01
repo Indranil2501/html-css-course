@@ -139,7 +139,7 @@ li:nth-child(even) {
 
 /* Misconception: This won't work */
 article p:last-child {
-  color: red
+  color: #444
 }
 
 /* Styling links */
@@ -201,7 +201,7 @@ h1::first-letter {
 }
 
 h3+p::first-line {
-  color: brown;
+  color: #444;
 }
 
 h2 {
@@ -324,4 +324,20 @@ font-weight: bold;
 font-style: normal;
 margin-bottom: 5px;
 display: block;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+
+article {
+  flex: 1;
+  margin-bottom: 0px;
+}
+
+aside {
+  flex: 0 0 300px;
 }
