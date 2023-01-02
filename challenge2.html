@@ -60,13 +60,18 @@
       }
 
       .product-description {
-        clear: both;
         margin-bottom: 10px;
+      }
+
+      .product-price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
       }
 
       .price {
         font-size: 24px;
-        float: left;
       }
 
       .shipping {
@@ -74,9 +79,6 @@
         text-transform: uppercase;
         font-weight: bold;
         color: #777;
-        margin-top: 8px;
-        margin-bottom: 20px;
-        float: right;
       }
 
       .more-info:link,
@@ -179,8 +181,10 @@
           width="250"
         />
         <div class="product-info">
-          <p class="price"><strong>$65.00</strong></p>
-          <p class="shipping">Free shipping</p>
+          <div class="product-price">
+            <p class="price"><strong>$65.00</strong></p>
+            <p class="shipping">Free shipping</p>
+          </div>
           <p class="sale">Sale</p>
           <p class="product-description">
             Ready to dress up or down, these classic canvas Chucks are an
